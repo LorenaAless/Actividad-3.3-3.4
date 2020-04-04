@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora</title>
+<link rel="stylesheet" type="text/css" href="css/calcula.css" />
+<script type="text/javascript" src="js/calcula.js"></script>
+</head>
+<body>
+    <center><div class="calculadora">
+        <h2 id="marca">CASIO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fx-82MS</h2>
+        <h2 id="marca2">S-V.P.A.M</h2>
+        <form action="#" name="calculadora" id="calculadora">
+            <p id="textoPantalla">0</p>
+            <!--<p>
+                <input type="button" class="largo" value="Retr" onclick="retro()"/>
+                <input type="button" class="largo" value="CE" onclick="borradoParcial()"/>
+            </p>-->
+            <p>
+                <input id="bnegro" type="button" value="asin" onclick="arcoseno()"/>
+                <input id="bnegro" type="button" value="acos" onclick="arcocoseno()"/>
+                <input id="bnegro" type="button" value="atan" onclick="arcotangente()"/>
+                <input id="bnegro" type="button" value="ln" onclick="lognatural()"/>
+                <input id="bnegro" type="button" value="log" onclick="logb10()"/>
+                <input id="bnegro" type="button" value="log 2" onclick="logb2()"/>
+            </p>
+            <p>
+                <input id="bnegro" type="button" value="sinh" onclick="senohiperbolico()"/>
+                <input id="bnegro" type="button" value="cosh" onclick="cosenohiperbolico()"/>
+                <input id="bnegro" type="button" value="tanh" onclick="tangentehiperbolica()"/>
+                <input id="bnegro" type="button" value="e" onclick="numeroEuler()"/>
+                <input id="bnegro" type="button" value="π" onclick="pinum()"/>
+                <input id="bnegro" type="button" value="√ 1/2" onclick="raizmedio()"/>
+            </p>
+            <p>
+                <input id="bnegro" type="button" value="sin" onclick="sin()"/>
+                <input id="bnegro" type="button" value="cos" onclick="cos()"/>
+                <input id="bnegro" type="button" value="tan" onclick="tan()"/>
+                <input id="bnegro" type="button" value="√" onclick="raizc()"/>
+                <input id="bnegro" type="button" value="x²" onclick="potencia2()">
+                <input id="bnegro" type="button" value="x³" onclick="potencia3()"/>
+            </p>
+            <p>
+                <input id="bnegro" type="button" value="bin" onclick="binario()">
+                <input id="bnegro" type="button" value="oct" onclick="octal()">
+                <input id="bnegro" type="button" value="hex" onclick="hexadecimal()">
+                <input id="bnegro" type="button" value="%" onclick="porcent()"/>
+                <input id="bnegro" type="button" value="1/x" onclick="inve()"/>
+                <input id="bnegro" type="button" value="|x|" onclick="numeroabsoluto()"/>
+            </p>
+            <p>
+                <input type="button" value="7" onclick="numero('7')"/>
+                <input type="button" value="8" onclick="numero('8')"/>
+                <input type="button" value="9" onclick="numero('9')"/>
+                <input id="brojo" type="button" value="DEL" onclick="borradoTotal()"/>
+                <input id="brojo" type="button" value="AC" onclick="borradoTotal()"/>
+            </p>
+            <p>
+                <input type="button" value="4" onclick="numero('4')"/>
+                <input type="button" value="5" onclick="numero('5')"/>
+                <input type="button" value="6" onclick="numero('6')"/>
+                <input type="button" value="X" onclick="operar('*')"/>
+                <input type="button" value="÷" onclick="operar('/')"/>
+            </p>
+            <p>
+                <input type="button" value="1" onclick="numero('1')"/>
+                <input type="button" value="2" onclick="numero('2')"/>
+                <input type="button" value="3" onclick="numero('3')"/>
+                <input type="button" value="+" onclick="operar('+')"/>
+                <input type="button" value="-" onclick="operar('-')"/>
+            </p>
+            <p>
+                <input type="button" value="0" onclick="numero('0')"/>
+                <input type="button" value="." onclick="numero('.')"/>
+                <input type="button" value="EXP" onclick=""/>
+                <input type="button" value="Ans" onclick=""/>
+                <input type="button" value="=" onclick="igualar()"/>
+            </p>
+        </form>
+    </div></center>
+</body>
+</html>
